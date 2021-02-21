@@ -8,5 +8,12 @@ function even_or_odd(number) {
         return "Odd"
     }
 }
+
+function even_or_odd(number) {
+    //ternary operator
+    return number % 2 === 0 ? true : false;
+}
+
+
 console.log(even_or_odd(5))
 console.log(even_or_odd(2))
