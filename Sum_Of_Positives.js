@@ -1,3 +1,5 @@
+//You get an array of numbers, return the sum of all of the positives ones.
+
 // const positiveSum = (arr) => {
 //     let acc = 0
 //     for (let el of arr) {
@@ -13,6 +15,3 @@ const positiveSum = (arr) => {
 
 
 console.log(positiveSum([-1, 2, 3, 4, -5]));
-
-const arr1 = [-1, 2, 3, 4, -5]
-const arr2 = arr1.slice(1)
