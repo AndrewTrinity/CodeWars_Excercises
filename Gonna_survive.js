@@ -4,9 +4,9 @@
 
 function hero(bullets, dragons) {
     //Get Coding!
-    if (bullets > dragons * 2) {
-        return "true"
+    if (bullets >= dragons * 2) {
+        return true
     } else if (bullets < dragons * 2) {
-        return "false"
+        return false
     }
 }

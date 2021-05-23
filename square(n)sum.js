@@ -7,12 +7,12 @@ function squareSum(numbers) {
     }
     console.log(result)
     let acc = 0;
-
-    for (let i = 0; i < result.length; i++) {
-
+    console.log("despues del acc")
+    for (let i = 0; i < resultconcat; i++) {
+        console.log("working")
         acc += result[i]
     }
-
+    console.log("dspues del for loop")
     return acc
 }
 

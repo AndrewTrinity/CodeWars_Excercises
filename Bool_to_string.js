@@ -1,8 +1,7 @@
 function boolToWord(bool) {
-    const word = bool.toString()
-    if (word === true) {
+    if (bool === true) {
         return "Yes"
-    } else if (word !== true) {
+    } else if (bool !== true) {
         return "No"
     }
 }
