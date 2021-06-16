@@ -4,6 +4,20 @@
 // "found the needle at position " plus the index it found the needle
 
 function findNeedle(haystack) {
-    // your code here
-    for (let i = 0; i < haystack.length; i++)
+  // your code here
+  for (let i = 0; i < haystack.length; i++) {
+    if (haystack[i] === "needle") {
+      return `found the needle at position ${i}`
+    }
   }
+}
+
+function findNeedle(haystack) {
+  for (let i = 0; i < haystack.length; i++) {
+    if (haystack[i] === "needle") {
+      return `found the needle at position ${i}`
+    }
+  }
+}
+
+

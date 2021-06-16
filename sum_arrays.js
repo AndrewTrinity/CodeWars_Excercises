@@ -4,4 +4,4 @@ function sum(numbers) {
     return numbers.reduce((acc, curr) => acc + curr, 0)
 };
 
-reduce((a, b) => a + b, 0)
+// reduce((a, b) => a + b, 0)
